@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+        <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+            <Id>
+                <TypeId>OreDetector</TypeId>
+                <SubtypeId>LargeOreDetector</SubtypeId>
+            </Id>
+            <CubeSize>Large</CubeSize>
+            <MaximumRange>400</MaximumRange>
+        </Definition>
+        <Definition xsi:type="MyObjectBuilder_OreDetectorDefinition">
+            <Id>
+                <TypeId>OreDetector</TypeId>
+                <SubtypeId>SmallBlockOreDetector</SubtypeId>
+            </Id>
+            <CubeSize>Small</CubeSize>
+            <MaximumRange>200</MaximumRange>
+        </Definition>
+    </CubeBlocks>
+</Definitions>
