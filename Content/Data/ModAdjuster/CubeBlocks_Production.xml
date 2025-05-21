@@ -9,9 +9,19 @@
             <CubeSize>Large</CubeSize>
 
             <IceConsumptionPerSecond>75</IceConsumptionPerSecond>
-            <FuelPullAmountFromConveyorInMinutes>2.2</FuelPullAmountFromConveyorInMinutes>
 
         </Definition>
+
+		<Definition xsi:type="MyObjectBuilder_OxygenGeneratorDefinition">
+			<Id>
+				<TypeId>OxygenGenerator</TypeId>
+				<SubtypeId>OxygenGeneratorSmall</SubtypeId>
+			</Id>
+			<CubeSize>Small</CubeSize>
+
+			<IceConsumptionPerSecond>5</IceConsumptionPerSecond>
+
+		</Definition>
 
     </CubeBlocks>
 </Definitions>
