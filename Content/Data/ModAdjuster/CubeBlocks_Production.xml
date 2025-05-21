@@ -19,7 +19,7 @@
 			</Id>
 			<CubeSize>Small</CubeSize>
 
-			<IceConsumptionPerSecond>5</IceConsumptionPerSecond>
+			<IceConsumptionPerSecond>15</IceConsumptionPerSecond>
 
 		</Definition>
 
