@@ -15,8 +15,8 @@
       <PlanetDeployAltitude>2000</PlanetDeployAltitude>
 
 	  <PlanetTypes>
-		<PlanetType>EarthLike</PlanetType>
-		<PlanetType>Mars</PlanetType>
+		<PlanetType>Planet-26</PlanetType>
+		  <PlanetType>Mars</PlanetType>
 	  </PlanetTypes>
 	  
       <InitialLinearVelocity x="0" y="-95" z="0" />
