@@ -1,0 +1,178 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <CubeBlocks>
+        <Definition>
+            <Id>
+                <TypeId>CubeBlock</TypeId>
+                <SubtypeId>LargeESUnknownArmorBlock</SubtypeId>
+            </Id>
+            <DisplayName>Large Unknown Block</DisplayName>
+            <Icon>Textures\GUI\Icons\Cubes\heavy_armor_cube.dds</Icon>
+            <Icon>Textures\GUI\Icons\Overlays\Admin.dds</Icon>
+            <Description>A block made from an unknown material</Description>
+            <CubeSize>Large</CubeSize>
+            <BlockTopology>Cube</BlockTopology>
+            <Size x="1" y="1" z="1" />
+            <ModelOffset x="0" y="0" z="0" />
+            <CubeDefinition>
+                <CubeTopology>Box</CubeTopology>
+                <ShowEdges>true</ShowEdges>
+                <Sides>
+                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                    <Side Model="Models\Cubes\Large\Armor\HeavySquarePlate.mwm" PatternWidth="4" PatternHeight="2" />
+                </Sides>
+            </CubeDefinition>
+            <Components>
+				<Component Subtype="ESUnknownMaterial" Count="65" >
+					<DeconstructId>
+						<TypeId>Ore</TypeId>
+						<SubtypeId>Scrap</SubtypeId>
+					</DeconstructId>
+				</Component>
+                <Component Subtype="ESUnknownMaterial" Count="100" >
+				<DeconstructId>
+					<TypeId>Ore</TypeId>
+					<SubtypeId>Scrap</SubtypeId>
+				</DeconstructId>
+			</Component>
+			</Components>
+            <CriticalComponent Subtype="ESUnknownMaterial" Index="0" />
+            <MountPoints>
+                <MountPoint Side="Front" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Back" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Left" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Right" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Bottom" StartX="0" StartY="0" EndX="1" EndY="1" />
+                <MountPoint Side="Top" StartX="0" StartY="0" EndX="1" EndY="1" />
+            </MountPoints>
+            <BuildProgressModels>
+                <Model BuildPercentUpperBound="0.33" File="Models\Cubes\Large\Armor\HeavySquarePlateConstruction_1.mwm" />
+                <Model BuildPercentUpperBound="0.66" File="Models\Cubes\Large\Armor\HeavySquarePlateConstruction_2.mwm" RandomOrientation="true" />
+                <Model BuildPercentUpperBound="1.00" File="Models\Cubes\Large\Armor\HeavySquarePlateConstruction_3.mwm" RandomOrientation="true" />
+            </BuildProgressModels>
+            <Skeleton>
+                <BoneInfo>
+                    <BonePosition x="0" y="0" z="0" />
+                    <BoneOffset x="127" y="127" z="127" />
+                </BoneInfo>
+                <BoneInfo>
+                    <BonePosition x="0" y="0" z="1" />
+                    <BoneOffset x="127" y="127" z="127" />
+                </BoneInfo>
+                <BoneInfo>
+                    <BonePosition x="0" y="0" z="2" />
+                    <BoneOffset x="127" y="127" z="127" />
+                </BoneInfo>
+                <BoneInfo>
+                    <BonePosition x="0" y="1" z="0" />
+                    <BoneOffset x="127" y="127" z="127" />
+                </BoneInfo>
+                <BoneInfo>
+                    <BonePosition x="0" y="1" z="1" />
+                    <BoneOffset x="127" y="127" z="127" />
+                </BoneInfo>
+                <BoneInfo>
+                    <BonePosition x="0" y="1" z="2" />
+                    <BoneOffset x="127" y="127" z="127" />
+                </BoneInfo>
+                <BoneInfo>
+                    <BonePosition x="0" y="2" z="0" />
+                    <BoneOffset x="127" y="127" z="127" />
+                </BoneInfo>
+                <BoneInfo>
+                    <BonePosition x="0" y="2" z="1" />
+                    <BoneOffset x="127" y="127" z="127" />
+                </BoneInfo>
+                <BoneInfo>
+                    <BonePosition x="0" y="2" z="2" />
+                    <BoneOffset x="127" y="127" z="127" />
+                </BoneInfo>
+                <BoneInfo>
+                    <BonePosition x="1" y="0" z="0" />
+                    <BoneOffset x="127" y="127" z="127" />
+                </BoneInfo>
+                <BoneInfo>
+                    <BonePosition x="1" y="0" z="1" />
+                    <BoneOffset x="127" y="127" z="127" />
+                </BoneInfo>
+                <BoneInfo>
+                    <BonePosition x="1" y="0" z="2" />
+                    <BoneOffset x="127" y="127" z="127" />
+                </BoneInfo>
+                <BoneInfo>
+                    <BonePosition x="1" y="1" z="0" />
+                    <BoneOffset x="127" y="127" z="127" />
+                </BoneInfo>
+                <BoneInfo>
+                    <BonePosition x="1" y="1" z="1" />
+                    <BoneOffset x="127" y="127" z="127" />
+                </BoneInfo>
+                <BoneInfo>
+                    <BonePosition x="1" y="1" z="2" />
+                    <BoneOffset x="127" y="127" z="127" />
+                </BoneInfo>
+                <BoneInfo>
+                    <BonePosition x="1" y="2" z="0" />
+                    <BoneOffset x="127" y="127" z="127" />
+                </BoneInfo>
+                <BoneInfo>
+                    <BonePosition x="1" y="2" z="1" />
+                    <BoneOffset x="127" y="127" z="127" />
+                </BoneInfo>
+                <BoneInfo>
+                    <BonePosition x="1" y="2" z="2" />
+                    <BoneOffset x="127" y="127" z="127" />
+                </BoneInfo>
+                <BoneInfo>
+                    <BonePosition x="2" y="0" z="0" />
+                    <BoneOffset x="127" y="127" z="127" />
+                </BoneInfo>
+                <BoneInfo>
+                    <BonePosition x="2" y="0" z="1" />
+                    <BoneOffset x="127" y="127" z="127" />
+                </BoneInfo>
+                <BoneInfo>
+                    <BonePosition x="2" y="0" z="2" />
+                    <BoneOffset x="127" y="127" z="127" />
+                </BoneInfo>
+                <BoneInfo>
+                    <BonePosition x="2" y="1" z="0" />
+                    <BoneOffset x="127" y="127" z="127" />
+                </BoneInfo>
+                <BoneInfo>
+                    <BonePosition x="2" y="1" z="1" />
+                    <BoneOffset x="127" y="127" z="127" />
+                </BoneInfo>
+                <BoneInfo>
+                    <BonePosition x="2" y="1" z="2" />
+                    <BoneOffset x="127" y="127" z="127" />
+                </BoneInfo>
+                <BoneInfo>
+                    <BonePosition x="2" y="2" z="0" />
+                    <BoneOffset x="127" y="127" z="127" />
+                </BoneInfo>
+                <BoneInfo>
+                    <BonePosition x="2" y="2" z="1" />
+                    <BoneOffset x="127" y="127" z="127" />
+                </BoneInfo>
+                <BoneInfo>
+                    <BonePosition x="2" y="2" z="2" />
+                    <BoneOffset x="127" y="127" z="127" />
+                </BoneInfo>
+            </Skeleton>
+            <BlockPairName>ESUnknownArmorBlock</BlockPairName>
+            <DeformationRatio>0.4</DeformationRatio>
+            <EdgeType>Heavy</EdgeType>
+            <BuildTimeSeconds>30</BuildTimeSeconds>
+            <DisassembleRatio>12</DisassembleRatio>
+            <GeneralDamageMultiplier>0.1</GeneralDamageMultiplier>
+            <PCU>1</PCU>
+            <PCUConsole>2</PCUConsole>
+            <IsAirTight>true</IsAirTight>
+        </Definition>
+    </CubeBlocks>
+</Definitions>
