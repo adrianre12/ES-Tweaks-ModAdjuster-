@@ -8,7 +8,6 @@
             </Id>
             <DisplayName>Large Unknown Block</DisplayName>
             <Icon>Textures\GUI\Icons\Cubes\heavy_armor_cube.dds</Icon>
-            <Icon>Textures\GUI\Icons\Overlays\Admin.dds</Icon>
             <Description>A block made from an unknown material</Description>
             <CubeSize>Large</CubeSize>
             <BlockTopology>Cube</BlockTopology>
