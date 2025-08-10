@@ -32,7 +32,7 @@
 						<SubtypeId>Scrap</SubtypeId>
 					</DeconstructId>
 				</Component>
-                <Component Subtype="ESUnknownMaterial" Count="100" >
+                <Component Subtype="ESUnknownMaterial" Count="760" >
 				<DeconstructId>
 					<TypeId>Ore</TypeId>
 					<SubtypeId>Scrap</SubtypeId>
@@ -167,7 +167,7 @@
             <DeformationRatio>0.4</DeformationRatio>
             <EdgeType>Heavy</EdgeType>
             <BuildTimeSeconds>30</BuildTimeSeconds>
-            <DisassembleRatio>12</DisassembleRatio>
+            <DisassembleRatio>120</DisassembleRatio>
             <GeneralDamageMultiplier>0.1</GeneralDamageMultiplier>
             <PCU>1</PCU>
             <PCUConsole>2</PCUConsole>
